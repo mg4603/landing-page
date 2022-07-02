@@ -75,6 +75,10 @@ button{
     height: 40vh;
     margin-left: auto;
     border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 button, .call-to-action-section{

@@ -75,8 +75,7 @@ button, .call-to-action-section{
 }
 .information-section h2{
     font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937;
+    font-weight: 1000;
 }
 .info-items{
     display: flex;
@@ -94,4 +93,25 @@ button, .call-to-action-section{
     height: 10vh;
     border: 2px solid rgb(87, 153, 181);
     border-radius: 10%;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 10vh 18vw;
+}
+
+.quote, .information-section h2{
+    color: #1F2937
+}
+.quote{
+    font-size: 36px;
+    font-weight: 0;
+    font-style: italic;   
+}
+.quote-by-line{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }

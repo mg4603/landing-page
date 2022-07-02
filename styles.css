@@ -6,7 +6,10 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.header, .hero-section, .information-section, .quote-section, .call-to-action-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .header{
     display: flex;
 }
@@ -39,7 +42,27 @@ body{
     background-color: #1F2937;
 }
 
+.hero-section{
+    display: flex;
+}
 .hero-main-text{
     font-size: 48px;
     font-weight: extra-bold;
+    
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+}
+.hero-img{
+    width: 50%;
+    height: 40vh;
+    margin-left: auto;
+}
+
+button, .call-to-action-section{
+    background-color: #3882F6;
 }
